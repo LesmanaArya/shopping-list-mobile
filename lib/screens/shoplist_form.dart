@@ -25,7 +25,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
           backgroundColor: Colors.indigo,
           foregroundColor: Colors.white,
         ),
-        drawer: LeftDrawer(),
+        drawer: const LeftDrawer(),
         body: Form(
           key: _formKey,
           child: SingleChildScrollView(
